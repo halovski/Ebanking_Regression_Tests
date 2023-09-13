@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{07AFCA63-E317-421C-A380-A54840B5724E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{CF96F46A-B0C6-4793-83CF-D03550872405}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{01F1B032-9E3E-4AB3-A961-C234C42AA9D7}">
+								<Image FileName="-1303263193" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePostbank" Key="{4709C9DA-50C7-4843-B0B1-BAC4EEA01F9C}">
+								<Image FileName="-1303263193" Left="0" Top="136" Right="1920" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/page/default.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formMForm" Key="{AAE0E523-0880-47BF-BA48-F27AB85DC3A6}">
+										<Image FileName="-1303263193" Left="0" Top="265" Right="617" Bottom="900" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;EN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@class, &apos;cl_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{50532CC1-3143-406C-83D9-C1FC6C751517}">
+										<Image FileName="-1303263193" Left="332" Top="706" Right="476" Bottom="723" />
+										<TypeInfo Item0="{2077A3DC-6AA0-421A-B177-ADF1BE9E1197}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Активирай достъп&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;link-registration&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//control[@id=&apos;LoginPage&apos;]//div[6]/p/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]/div[6]/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{2C68FED1-14EB-42F8-88D4-1F5DF7CF0A63}">
+										<Image FileName="-1078636645" Left="242" Top="501" Right="567" Bottom="554" />
+										<TypeInfo Item0="{C48D5EF8-FB2E-4D19-9056-B750D66EE1D6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;userName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPwd" Key="{DF876A3B-FEC6-4AD0-B02C-1C9CBE6BF9F4}">
+										<Image FileName="670936047" Left="242" Top="566" Right="567" Bottom="619" />
+										<TypeInfo Item0="{C48D5EF8-FB2E-4D19-9056-B750D66EE1D6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbutton" Key="{32D330B0-C59A-4E17-B8E5-DFC2E17F3548}">
+										<Image FileName="1840752081" Left="317" Top="636" Right="492" Bottom="689" />
+										<TypeInfo Item0="{9CF87A81-95FD-425E-9222-C65628D7FCBF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;ВХОД&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{F18906C7-2390-4DA0-85C0-4508236203E5}">
+										<Image FileName="1422503948" Left="961" Top="925" Right="1211" Bottom="963" />
+										<TypeInfo Item0="{9CF87A81-95FD-425E-9222-C65628D7FCBF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Юридически лица&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{CF96F46A-B0C6-4793-83CF-D03550872405}">
+			<Child Name="BrowserWindow" Owner="{01F1B032-9E3E-4AB3-A961-C234C42AA9D7}" />
+			<Child Name="pagePostbank" Owner="{4709C9DA-50C7-4843-B0B1-BAC4EEA01F9C}">
+				<Child Name="formMForm" Owner="{AAE0E523-0880-47BF-BA48-F27AB85DC3A6}">
+					<Child Name="link" Owner="{50532CC1-3143-406C-83D9-C1FC6C751517}" />
+					<Child Name="textboxUsername" Owner="{2C68FED1-14EB-42F8-88D4-1F5DF7CF0A63}" />
+					<Child Name="passwordboxPwd" Owner="{DF876A3B-FEC6-4AD0-B02C-1C9CBE6BF9F4}" />
+					<Child Name="submitbutton" Owner="{32D330B0-C59A-4E17-B8E5-DFC2E17F3548}" />
+					<Child Name="button" Owner="{F18906C7-2390-4DA0-85C0-4508236203E5}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
